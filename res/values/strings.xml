@@ -13,6 +13,18 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
+<!-- This work was modified by Two Six Labs, LLC and is sponsored by a subcontract agreement with
+     Raytheon BBN Technologies Corp. under Prime Contract No. FA8750-16-C-0006 with the Air Force
+     Research Laboratory (AFRL).
+
+     The Government has unlimited rights to use, modify, reproduce, release, perform, display, or disclose
+     computer software or computer software documentation marked with this legend. Any reproduction of
+     technical data, computer software, or portions thereof marked with this legend must also reproduce
+     this marking.
+
+     Copyright (C) 2020 Two Six Labs, LLC.  All rights reserved.
+-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Strings for Dialog yes button -->
     <string name="yes">"Yes"</string>
@@ -1493,6 +1505,20 @@
     <!-- Toast shown when lock pattern or password successfully setup. [CHAR LIMIT=64] -->
     <string name="lock_setup" msgid="5507462851158901718">Setup is complete.</string>
 
+    <!-- Title of PE Android settings menu -->
+    <string name="peandroid_settings"> PE for Android Settings </string>
+
+    <!-- Summary of PE Android settings -->
+    <string name="peandroid_dashboard_summary"> Configure PE for Android Settings </string>
+
+    <string name="open_policy_manager_title"> Current Privacy Manager </string>
+
+    <string name="choose_policy_manager_title"> Privacy Managers </string>
+
+    <string name="privacy_managers_title"> Choose Privacy Manager </string>
+
+    <string name="choose_policy_manager_summary"> Choose active Privacy Manager </string>
+
     <!-- Title of preference to manage device admin apps, which are used by IT admins to manage devices -->
     <string name="manage_device_admin">Device admin apps</string>
 
@@ -2764,6 +2790,8 @@
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="firmware_version">Android version</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="peandroid_version">PE for Android version</string>
     <!-- About phone screen, dialog title for showing device software information such as android version, security patch level, etc  [CHAR LIMIT=60] -->
     <string name="firmware_title">Android</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
@@ -7014,6 +7042,9 @@
     <string name="keywords_payment_settings">pay, tap, payments</string>
     <string name="keywords_backup">backup, back up</string>
     <string name="keywords_assist_gesture_launch">gesture</string>
+    <string name="keywords_peandroid_settings"> peandroid </string>
+    <string name="keywords_peandroid_active_policy_manager">policy, privacy, manager, active, peandroid</string>
+    <string name="keywords_peandroid_choose_policy_manager">policy, privacy, manager, choose, peandroid</string>
     <string name="keywords_imei_info">imei, meid, min, prl version, imei sv</string>
     <string name="keywords_sim_status">network, mobile network state, service state, signal strength, mobile network type, roaming, iccid</string>
     <string name="keywords_model_and_hardware">serial number, hardware version</string>
@@ -9954,6 +9985,7 @@
 
     <!-- Note displayed when certain features are not available on low ram devices. [CHAR LIMIT=NONE] -->
     <string name="disabled_low_ram_device">This feature is not available on this device</string>
+    <string name="no_privacy_managers">No privacy managers available</string>
 
     <!-- UI debug setting: preference title - enforce full raw GNSS satellite measurements [CHAR LIMIT=60] -->
     <string name="enable_gnss_raw_meas_full_tracking">Force full GNSS measurements</string>

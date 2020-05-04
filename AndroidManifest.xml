@@ -2232,6 +2232,25 @@
             </intent-filter>
         </activity>
 
+	<activity android:name="Settings$PEAndroidSettingsActivity"
+                android:label="@string/peandroid_settings"
+                android:icon="@drawable/ic_homepage_peandroid"
+                android:taskAffinity="">
+	    <intent-filter android:priority="1">
+                <action android:name="android.settings.PEANDROID_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+	    <intent-filter android:priority="8">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+           <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.PEAndroidSettings" />
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/peandroid_dashboard_summary"/>
+        </activity>
+
         <activity
             android:name="Settings$PowerUsageSummaryActivity"
             android:label="@string/power_usage_summary_title"

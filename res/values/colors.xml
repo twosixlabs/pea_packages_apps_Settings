@@ -115,6 +115,7 @@
     <color name="homepage_network_background">#2196F3</color>
     <color name="homepage_connected_device_background">#72B70F</color>
     <color name="homepage_app_and_notification_background">#FF7E0F</color>
+    <color name="homepage_peandroid_background">#5011C1</color>
     <color name="homepage_battery_background">#258982</color>
     <color name="homepage_display_background">#FFA727</color>
     <color name="homepage_sound_background">#01B1AF</color>
@@ -138,4 +139,3 @@
     <color name="battery_bad_color_dark">#f44336</color> <!-- Material Red 500 -->
 
 </resources>
-

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This work was authored by Two Six Labs, LLC and is sponsored by a subcontract agreement with
+     Raytheon BBN Technologies Corp. under Prime Contract No. FA8750-16-C-0006 with the Air Force
+     Research Laboratory (AFRL).
+
+     The Government has unlimited rights to use, modify, reproduce, release, perform, display, or disclose
+     computer software or computer software documentation marked with this legend. Any reproduction of
+     technical data, computer software, or portions thereof marked with this legend must also reproduce
+     this marking.
+
+     Copyright (C) 2020 Two Six Labs, LLC.  All rights reserved.
+-->
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/peandroid_settings"
+    settings:keywords="@string/keywords_peandroid_settings">
+
+  <Preference
+      android:key="active_policy_manager"
+      android:title="@string/open_policy_manager_title"
+      settings:keywords="@string/keywords_peandroid_active_policy_manager" />
+
+  <Preference
+      android:key="choose_policy_manager"
+      android:title="@string/choose_policy_manager_title"
+      android:summary="@string/choose_policy_manager_summary"
+      android:fragment="com.android.settings.privacy.PrivacyManagerSettings"
+      settings:keywords="@string/keywords_peandroid_choose_policy_manager" />
+
+</PreferenceScreen>

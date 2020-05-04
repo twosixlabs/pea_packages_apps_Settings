@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This work was authored by Two Six Labs, LLC and is sponsored by a subcontract agreement with
+     Raytheon BBN Technologies Corp. under Prime Contract No. FA8750-16-C-0006 with the Air Force
+     Research Laboratory (AFRL).
+
+     The Government has unlimited rights to use, modify, reproduce, release, perform, display, or disclose
+     computer software or computer software documentation marked with this legend. Any reproduction of
+     technical data, computer software, or portions thereof marked with this legend must also reproduce
+     this marking.
+
+     Copyright (C) 2020 Two Six Labs, LLC.  All rights reserved.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1">
+
+        <ListView android:id="@android:id/list"
+                android:layout_width="match_parent" 
+                android:layout_height="match_parent"
+                android:scrollbarStyle="outsideOverlay"
+                android:drawSelectorOnTop="false"
+                android:fastScrollEnabled="true" />
+
+        <TextView android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/no_privacy_managers"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/save"
+        android:id="@+id/save"
+        />
+
+</LinearLayout>
